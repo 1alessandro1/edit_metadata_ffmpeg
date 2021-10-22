@@ -5,7 +5,7 @@ This dummy repo collects few commands to remove or edit metadata from multiple s
 
 Change whole file title:
 ```
-ffmpeg -i input.mkv -map 0:v -map 0:a -map 0:s -metadata title='whatever' -c copy output0.mkv
+ffmpeg -i input.mkv -map 0:v -map 0:a -map 0:s -metadata title='whatever' -c copy output.mkv
 ```
 
 Change video stream title:
