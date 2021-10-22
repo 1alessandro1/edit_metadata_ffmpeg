@@ -13,7 +13,7 @@ Change video stream title:
 ffmpeg -i input.mkv -metadata:s:v:0 title="HEVC Video" -map 0:v -map 0:a -map 0:s -c copy output.mkv
 ```
 
-I think :s:v:0 some of the comments stands for:
+I think `:s:v:0` some of the comments stands for:
 
 :v = Video stream :0 = Use first video stream
 
